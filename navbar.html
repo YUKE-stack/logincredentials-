@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>nav bar</title>
+
+	<style type="text/css">
+
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		body{
+			background: url('background.png');
+			
+			background-repeat: no-repeat;
+  			background-attachment: fixed;  
+/* 		    background-size: cover;*/
+			background-size: 100% 100%;
+		}
+		nav{
+			display: flex;
+			background-color: #a9beda;
+			color: white;
+			justify-content:space-between ;
+			align-items: center;
+			padding: 0 20px;
+/*			opacity: 0.4;*/
+			background-image: linear-gradient(to right, rgb(199, 225, 243), rgb(80, 86, 144));
+
+		}
+
+
+		nav : hover{
+			opacity: 1.0;
+		}
+
+		nav ul{
+			display: flex;
+			list-style-type: none;
+			margin: 0 ;
+/*			margin-left: 100px;*/
+
+		}
+		nav ul li{
+			margin: 0 10px;
+			padding: 10px 20px;
+		}
+		nav ul li a {
+			text-decoration: none;
+			color: black;
+			font-weight: bold;
+			font-size: 18px;
+		}
+		nav ul li a:hover{
+			color: white;
+/*			background-color: lightgray;*/
+		}
+
+
+		button{
+			padding:5px 10px ;
+			font-weight: bold;
+		}
+		button:hover{
+			background-color: lightblue;
+		}
+
+		.signup{
+			background-color: blue;
+			border: none;
+			outline: none;
+			border-radius: 5px;
+		}
+		.login{
+			background-color: blue;
+			border: none;
+			outline: none;
+			border-radius: 5px;
+		}
+		a{
+			text-decoration: none;
+		}
+		form button a {
+			color: white;
+		}
+		form button a:hover{
+			color: black;
+		}
+		img{
+			width: 100px;
+		}
+
+
+		.para{
+			font-weight: bold;
+			font-size: 20px;
+			width: 480px;
+			background-color: ;
+			padding: 20px;
+			text-align: justify;
+			margin-top: 280px;
+			margin-left: 170px;
+		}
+
+		.signup1{
+			padding: 18px;
+			font-weight: bold;
+			font-size: 18px;
+			border: none;
+			background-color: #8a49e3;
+			border-radius: 20px;
+
+		}
+		.signup1  a{
+/*			color: black;*/
+		}
+
+		.login1 a{
+/*			color: black;*/
+		}
+
+
+		.login1{
+			padding: 18px;
+			font-weight: bold;
+			font-size: 18px;
+			margin-left: 18px;
+			border: none;
+			background-color: #8a49e3;
+			border-radius: 20px;
+		}
+		.signup1:hover{
+			background-color: #40a4ff;
+			
+			
+		}
+		.siu:hover{
+			color: black;
+		}
+
+		.login1:hover{
+			background-color: #40a4ff;
+			
+			
+		}
+		.lin:hover{
+			color: black;
+		}
+
+
+
+
+		
+
+	</style>
+</head>
+<body>
+	<nav>
+	<a href="navbar.html"><img src="download.png" alt="logo" title="Yuke"></a>
+	<ul>
+		<li> <a href="navbar.html">Home</a></li>
+		<li> <a href="notfound.html">About</a></li>
+		<li> <a href="notfound.html">Services</a></li>
+		<li> <a href="notfound.html">Contact</a></li>
+		<li> <a href="notfound.html">Help</a></li>
+	</ul>
+
+		<form accept="#" method="">
+		<button class="signup"><a href="index.html">Sign Up</a> </button>
+		<button class="login"><a href="login.html">Login</a></button>
+	</form>
+
+	</nav>
+
+
+
+	<div class="para">
+		<h3 style="font-size: 40px; width: 800px;" >Hi, Im Yuke, Welcome to my page !</h3> <br>
+		<p>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. <br> <br>Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  
+	</p><br>
+	<form accept="#" method="">
+		<button class="signup1"><a href="index.html" class="siu">Sign Up</a> </button>
+		<button class="login1"><a href="login.html" class="lin">Login</a></button>
+	</form>
+	</div>
+
+
+</body>
+</html>
